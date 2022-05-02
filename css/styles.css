@@ -204,8 +204,31 @@ font-family: Roboto, sans-serif;
     display: flex;
     flex-wrap: wrap;
    }
+   .features-a {
+    display: inline-block;
+     width: 270px;
+     height: 120px;
+    
+     margin-bottom: 30px;
+     background: var(--background-color);
+     border-radius: 4px; 
+   }
+.features-icon {
+   display: flex;
+   width: 70px;
+   height: 120px;
+    margin: auto;
+    border: 0;
+    color: var(--title-color);
+            
+}
+.features-icon:hover {
+    fill: var(--acsent-color);
+}
 .features-item {
     width: 270px;
+   
+
 }
 .features-item + .features-item {
     margin-left: 30px;
@@ -266,7 +289,8 @@ font-family: Roboto, sans-serif;
    
 }
 .team-container {
-    display: flex;   
+    display: flex;
+
     
 }
 .team-photo {
@@ -280,10 +304,23 @@ font-family: Roboto, sans-serif;
 
     text-align: center;
 }
+.icon {
+    display: block;
+    margin: 0;
+}
+.team-icon {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 30px;
+}
 .team-img {
     display: block;
     max-width: 270px;
     margin-bottom: 30px;
+}
+.team-svg {
+    width: 20px;
+    height: 20px;
 }
 .team-photo + .team-photo {
     margin-left: 30px;
@@ -309,6 +346,7 @@ font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
     
 }
+
 
 /* Hooter */
 .hooter {
