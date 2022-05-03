@@ -23,15 +23,29 @@
                 <nav class="header-nav">
                     <a href="./site.html" class="logo" lang="en"><span class="logo-blue">Web</span>Studio</a>
                     <ul class="site-nav list">
-                        <li class="item"> <a href="./index.html" class="link">Студия</a></li>
-                        <li class="item"> <a href="./portfolio.html" class="link current">Портфолио</a></li>
+                        <li class="item"> <a href="" class="link current">Студия</a></li>
+                        <li class="item"> <a href="./portfolio.html" class="link">Портфолио</a></li>
                         <li class="item"> <a href="" class="link">Контакты</a></li>
                     </ul>
                 </nav>
-                <ul class="auto-nav list">
-                    <li class="li-adress"><a href="info@devstudio.com" class="adress">info@devstudio.com</a></li>
-                    <li class="li-adress"><a href="tel:+380961111111" class="adress">+38 (096) 111 11 11</a></li>
-                </ul>
+                <div class="adress-container">
+                    <ul class="auto-nav list">
+                        <li class="li-adress">
+                            <a href=""><svg class="adress-svg">
+                                    <use href="./img/icons/sprite.svg#icon-post"></use>
+                                </svg></a>
+                            <a href="info@devstudio.com" class="adress">info@devstudio.com</a>
+                        </li>
+                        <li class="li-adress">
+                            <a href="">
+                                <svg class="adress-svg">
+                                    <use href="./img/icons/sprite.svg#icon-telephon"></use>
+                                </svg>
+                            </a>
+                            <a href="tel:+380961111111" class="adress">+38 (096) 111 11 11</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     
@@ -137,23 +151,53 @@
     </main>
 
     <!--Footer-->
-    <footer class="hooter">
-        <div class="container">
-            <a href="./site.html" class="logo-hooter" lang="en"><span class="logo-blue">Web</span>Studio</a>
-            <address class="hooter-adress">
-                <p class="hooter-text">г. Киев, пр-т Леси Украинки, 26</p>
-                <ul class="list">
-                    <li class="hooter-item">
-                        <a href="info@example.com" class="hooter-a">info@example.com</a>
+<footer class="hooter">
+    <div class="container">
+        <div class="hooter-container">
+            <div class="adress-conainer">
+                <a href="./site.html" class="logo-hooter" lang="en"><span class="logo-blue">Web</span>Studio</a>
+                <address class="hooter-adress">
+                    <p class="hooter-text">г. Киев, пр-т Леси Украинки, 26</p>
+                    <ul class="list">
+                        <li class="hooter-item">
+                            <a href="info@example.com" class="hooter-a">info@example.com</a>
+                        </li>
+                        <li>
+                            <a href="+380991111111" class="hooter-a">+38(099)1111111</a>
+                        </li class="hooter-item">
+                    </ul>
+
+                </address>
+            </div>
+            <div class="icon-container">
+                <h3 class="hooter-title">Присоединяйтесь</h3>
+                <ul class="hooter-icon list">
+                    <li class="li-icon">
+                        <a href=""> <svg class="hooter-svg">
+                                <use href="./img/icons/sprite.svg#icon-instagram"></use>
+                            </svg></a>
                     </li>
-                    <li class="hooter-item">
-                        <a href="+380991111111" class="hooter-a">+38(099)1111111</a>
+                    <li class="li-icon">
+                        <a href=""> <svg class="hooter-svg">
+                                <use href="./img/icons/sprite.svg#icon-twitter"></use>
+                            </svg></a>
+                    </li>
+                    <li class="li-icon">
+                        <a href=""> <svg class="hooter-svg">
+                                <use href="./img/icons/sprite.svg#icon-facebook"></use>
+                            </svg></a>
+                    </li>
+                    <li class="li-icon">
+                        <a href=""> <svg class="hooter-svg">
+                                <use href="./img/icons/sprite.svg#icon-linkedin"></use>
+                            </svg></a>
+
                     </li>
                 </ul>
-    
-            </address>
+            </div>
         </div>
-    </footer>
+    </div>
+</footer>
 
 </body>
 

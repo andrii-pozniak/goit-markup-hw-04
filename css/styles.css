@@ -144,7 +144,7 @@ font-family: Roboto, sans-serif;
     color: var(--acsent-color);
 }
 .adress-svg:hover, .adress-svg:focus {
-    color: var(--acsent-color);
+    color: var(--acsent-color);}
 
 /* Hero section */
 .hero-section { 
