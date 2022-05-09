@@ -340,29 +340,26 @@ font-family: Roboto, sans-serif;
 }
 .icon:hover,
 .icon:focus {
-    background-color: var(--acsent-color);
+    background-color: var(--acsent-color);    
+}
+.icon:hover .team-svg,
+.icon:focus .team-svg {
+    
     fill: var(--white-color)
 }
-
-
 .team-img {
     display: block;
     max-width: 270px;
     margin-bottom: 30px;
 }
-.team-a:focus {
-   background-color: var(--acsent-color);
-   color: var(--acsent-color); 
-}
+
 .team-svg {   
     width: 20px;
     height: 44px;
       
     fill: var(--icon-color);
 }
-.team-svg:hover {
-    fill: var(--white-color)
-}
+
 .team-photo + .team-photo {
     margin-left: 30px;
 }
