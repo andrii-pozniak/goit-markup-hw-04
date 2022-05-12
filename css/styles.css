@@ -346,23 +346,24 @@ font-family: Roboto, sans-serif;
     height: 44px;
     border-radius: 50%;
 }
-.team-logo:hover, .team-logo:focus {
+.team-logo:hover,
+.team-logo:focus {
     background-color: var(--acsent-color);
-    fill: var(--white-color)
+    fill: var(--white-color);
+    color: var(--white-color);
 }
-/*.icon:hover .team-svg {
-    fill: var(--white-color)
-}*/
-.icon:hover .team-svg, .icon:focus .team-svg {
+.team-logo:hover .team-svg,
+.team-logo:focus .team-svg {
     background-color: var(--acsent-color);
-    fill: var(--white-color)
-    }
+    fill: var(--white-color);
+    color: var(--white-color);
+
+}
 .team-img {
     display: block;
     max-width: 270px;
     margin-bottom: 30px;
 }
-
 .team-svg {   
     width: 20px;
     height: 20px;
@@ -442,8 +443,6 @@ font-family: Roboto, sans-serif;
 .customer-logo:hover .customer-svg, .customer-logo:focus .customer-svg {
     fill: var(--acsent-color);
 }
-
-
 
 /* Hooter */
 .hooter {
@@ -660,8 +659,9 @@ font-family: Roboto, sans-serif;
 }
 .photo-a {
     display: block;
+    text-decoration: none;
 }
-.photo-a:hover, .photo-a:focus {
+.text-container:hover, .text-container:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -692,16 +692,8 @@ font-family: Roboto, sans-serif;
     font-size: 16px;
     line-height: 1.88;   
     letter-spacing: 0.03em;
+
+    color: var(--primery-text-color);
 }
 
 
-/* вторичный цвет текста #212121;*/
-/*основной цвет текста #757575;*/
-/*белый #FFFFFF*/
-/* эфект #2196F3;*/
-/* цвет адреса в ховере rgba(255, 255, 255, 0.6) */
-/* color background hader #FFFF*/
-/* color background hero #2F303A */
-/* color background section #E5E5E5 */
-/* color background section team #F5F4FA */
-/*color background footer #2F303A */
